@@ -1,0 +1,38 @@
+
+package qsn1;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Ashwin
+ */
+public class RepeatAdd {
+
+    public static void main(String[] args) {
+        System.out.println("Single digit sum: " + sum());
+      
+    }
+
+    public static String sum() {
+        int number = 0;
+        System.out.println("Enter a non-negative integer number: ");
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        if (num < 10) {
+            return "Number must be of at-least two digit";
+        }
+        while (num > 9) {
+            int firstDigit = num / 10;
+            int secondDigit = num % 10;
+            num = firstDigit + secondDigit;
+            if (num < 10) {
+                return num + "";
+            }
+
+        }
+
+        return "";
+    }
+
+}

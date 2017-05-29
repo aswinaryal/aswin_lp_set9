@@ -1,0 +1,36 @@
+
+package qsn2;
+
+/**
+ *
+ * @author Ashwin
+ */
+public class Pythagorean {
+
+    public static void main(String[] args) {
+        
+        for(int i=2;i<500;i++)
+        {
+            for(int j=i+1;j<500;j++)
+            {
+                int totalsum=(i*i)+(j*j);
+                //System.out.println(totalsum);
+              for(int k=j+1;k<500;k++)
+              {
+                  if(totalsum==(k*k))
+                  {
+                      if((i+j+k)==1000)
+                      {
+                          System.out.println("Solution a="+i+" b="+j+" c="+k);
+                          System.out.println("The Product of abc is: "+i*j*k);
+                      }
+                  }
+              }
+              
+        }
+        
+    }
+        
+
+}
+}

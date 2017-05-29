@@ -1,0 +1,9 @@
+If I am hired as a consultant for a start-up company for website development then I would use agile SDLC development mode since it’s a incremental build model, In this mode we can partition single project into each individual stages  like: planning, requirement analysis, design, coding, unit testing and acceptance testing.
+These kind of incremental model would be more efficient to use for start-ups companies which can’t afford more expenses than more established companies. Using Prototyping model to develop website or any kind of web application would be overkill for recently started start-up. 
+For planning I would like to follow following activities:
+Based on the requirements and features given by the client first of all the total work is break down into small structure, then
+Project Scheduling: Identifying task needed to carried out, Estimating time for each component, Allocating resources
+Creating resource plan: For the development of project, analysis of what kind of resources are needed to develop needs to be analysed.
+Creating financial plan: Financial analysis for the product development needs to be done in this phase.
+Creating acceptance plan: after the completion of project, product needs to be handled by the client.
+

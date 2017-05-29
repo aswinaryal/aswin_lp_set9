@@ -1,0 +1,8 @@
+Test Scenarios for Division Calculator
+•	check application if it provide correct result for dividing two positive integer
+•	Check for how application handles if user typed unsupported data types like String, 	special characters into the input fields.
+•	Check for how application handles if user typed large number (out of bound) into input 	fields.
+		For eg: handle for IllegalArgumentException, IOException etc.
+
+•	Check for how application handles for DivideByZeroException 
+		For eg: 5/0 ,0/0
